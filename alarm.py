@@ -1,7 +1,7 @@
 import time
 
-massage = input("Enter the massage that u want to show: ")
-give_time = input("Enter the time(HH-MM-SS) when u want to see this Massage: ")
+message = input("Enter the message that u want to show: ")
+give_time = input("Enter the time(HH-MM-SS) when u want to see this Message: ")
 
 while True:
     now = time.strftime("%H-%M-%S")
@@ -10,5 +10,5 @@ while True:
         break
     time.sleep(1)
 
-print("Your Massage is:")
-print(massage)
+print("Your Message is:")
+print(message)
