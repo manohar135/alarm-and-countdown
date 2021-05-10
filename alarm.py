@@ -10,5 +10,5 @@ while True:
         break
     time.sleep(1)
 
-print("Ure Massage is:")
+print("Your Massage is:")
 print(massage)
